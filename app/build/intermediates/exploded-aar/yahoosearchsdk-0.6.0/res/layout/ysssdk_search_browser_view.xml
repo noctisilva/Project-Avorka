@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/search_browser_webview"
+                android:layout_below="@+id/header_view"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/yssdk_preview_footer_height"/>
+
+            <ProgressBar
+                android:id="@+id/web_progress_spinner"
+                style="?android:attr/progressBarStyleLarge"
+                android:paddingBottom="@dimen/yssdk_preview_footer_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:id="@+id/footer_view"
+                android:layout_above="@id/search_browser_webview"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_height="@dimen/yssdk_preview_footer_height"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/yssdk_padding_size_1">
+
+                    <TextView
+                        android:id="@+id/tv_send_link"
+                        android:background="@color/share_blue"
+                        android:layout_width="match_parent"
+                        android:layout_margin="@dimen/yssdk_padding_size_1"
+                        android:layout_height="@dimen/yssdk_share_send_button_height"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:text="@string/yssdk_menu_send"/>
+
+                    <TextView
+                        android:id="@+id/tv_send_icon"
+                        android:background="@color/share_blue"
+                        android:layout_marginRight="@dimen/yssdk_share_send_margin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:text="@string/yssdk_share_send_icon"/>
+                </FrameLayout>
+            </RelativeLayout>
+
+    </RelativeLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/TaeHong/AndroidStudioProjects/ProjectAvorka/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-nl/values-nl.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Delen met %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <!-- From: file:/C:/Users/TaeHong/AndroidStudioProjects/ProjectAvorka/app/build/intermediates/exploded-aar/yahoosearchsdk-0.6.0/res/values-nl/yala.xml -->
+    <eat-comment/>
+    <string name="app_name">Mail</string>
+    <string name="app_not_available">%1$s is nu niet beschikbaar.</string>
+    <string name="cancel">Annuleren</string>
+    <string name="common.powered_by_bing">Mogelijk gemaakt door Bing&amp;trade;</string>
+    <string name="copy_message_error_toast">Fout tijdens kopiëren van tekst naar Klembord.</string>
+    <string name="copy_message_success_toast">Tekst van bericht gekopieerd naar Klembord.</string>
+    <string name="date_format_month_day">d MMM</string>
+    <string name="date_format_month_day_year">M-d-yy</string>
+    <string name="date_time_format_long">E, MMM d, yyyy \'om\' h:mm a</string>
+    <string name="date_time_format_long_24">E, MMM d, yyyy \'om\' k:mm</string>
+    <string name="date_time_format_short">d-M-yy k.mm</string>
+    <string name="date_time_format_short_24">M/d/yy k:mm</string>
+    <string name="day_1">%1$d DAG</string>
+    <string name="day_n">%1$d DAGEN</string>
+    <string name="download_app">%1$s is niet op je toestel geïnstalleerd. Wil je %2$s installeren?</string>
+    <string name="download_app_generic_partner">%1$s is niet geïnstalleerd op je apparaat. Ga naar de Market en installeer dit.</string>
+    <string name="duration_format_hours">h \'uur\', m \'min\', s \'sec\'</string>
+    <string name="duration_format_minutes">m \'min,\' s \'sec\'</string>
+    <string name="duration_format_seconds">s \'sec\'</string>
+    <string name="edit">Bewerken</string>
+    <string name="hr_1">%1$d UUR</string>
+    <string name="hr_n">%1$d UUR</string>
+    <string name="loading">Laden\u2026</string>
+    <string name="min_1">%1$d MIN</string>
+    <string name="min_n">%1$d MIN</string>
+    <string name="month_1">%1$d MAAND</string>
+    <string name="month_n">%1$d MAANDEN</string>
+    <string name="no">Nee</string>
+    <string name="no_google_play_dialog_message">Google Play is niet geïnstalleerd op je apparaat. Installeer dit alvorens door te gaan.</string>
+    <string name="no_google_play_dialog_title">Google Play is niet geïnstalleerd</string>
+    <string name="no_handling_application_toast">Kan geen app(s) vinden om bewerking uit te voeren</string>
+    <string name="ok">OK</string>
+    <string name="sec_1">%1$d SEC</string>
+    <string name="sec_n">%1$d SEC</string>
+    <string name="short_time_format">k.mm</string>
+    <!-- From: file:/C:/Users/TaeHong/AndroidStudioProjects/ProjectAvorka/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-nl/values-nl.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/C:/Users/TaeHong/AndroidStudioProjects/ProjectAvorka/app/build/intermediates/exploded-aar/yahoosearchsdk-0.6.0/res/values-nl/yala.xml -->
+    <eat-comment/>
+    <string name="year_1">%1$d JAAR</string>
+    <string name="year_n">%1$d JAAR</string>
+    <string name="yes">Ja</string>
+    <string name="yssdk_app_title">Yahoo Zoeken</string>
+    <string name="yssdk_cancel">Annuleren</string>
+    <string name="yssdk_clear_history_summary">Zoekgeschiedenis van apparaat wissen</string>
+    <string name="yssdk_clear_history_title">Geschiedenis wissen</string>
+    <string name="yssdk_clear_history_warning_text">Weet je het zeker?</string>
+    <string name="yssdk_clear_history_warning_title">Zoekgeschiedenis van apparaat wissen</string>
+    <string name="yssdk_close">Sluiten</string>
+    <string name="yssdk_copy">Kopiëren</string>
+    <string name="yssdk_development_mode">Ontwikkelmodus AAN</string>
+    <string name="yssdk_dismiss_button">Negeren</string>
+    <string name="yssdk_history_cleared">Geschiedenis gewist</string>
+    <string name="yssdk_image_copyright_message">Er kan copyright van toepassing zijn op de afbeelding</string>
+    <string name="yssdk_image_search">Afbeeldingen</string>
+    <string name="yssdk_images_copyright_message">Afbeeldingen kunnen auteursrechtelijk zijn beschermd</string>
+    <string name="yssdk_initializing">Initialiseren...</string>
+    <string name="yssdk_invalid_yhs_key">Ongeldige applicatie-id</string>
+    <string name="yssdk_kb">kB</string>
+    <string name="yssdk_local_address">Adres</string>
+    <string name="yssdk_local_call">Bellen</string>
+    <string name="yssdk_local_category">Categorie</string>
+    <string name="yssdk_local_closed">Gesloten</string>
+    <string name="yssdk_local_directions">Route</string>
+    <string name="yssdk_local_friday">Vrijdag</string>
+    <string name="yssdk_local_hours">Openingstijden</string>
+    <string name="yssdk_local_images">Afbeeldingen</string>
+    <string name="yssdk_local_menu">Menu</string>
+    <string name="yssdk_local_mi">mi</string>
+    <string name="yssdk_local_monday">maandag</string>
+    <string name="yssdk_local_no_location">Please enable location services</string>
+    <string name="yssdk_local_on">op</string>
+    <string name="yssdk_local_opening_hours">Openingstijden</string>
+    <string name="yssdk_local_reviews">Recensies</string>
+    <string name="yssdk_local_saturday">Zaterdag</string>
+    <string name="yssdk_local_search">In de omgeving</string>
+    <string name="yssdk_local_share">Delen</string>
+    <string name="yssdk_local_sunday">Zondag</string>
+    <string name="yssdk_local_thursday">Donderdag</string>
+    <string name="yssdk_local_today">Vandaag</string>
+    <string name="yssdk_local_tuesday">Dinsdag</string>
+    <string name="yssdk_local_view_more_yelp">Meer weergeven op Yelp</string>
+    <string name="yssdk_local_website">Website</string>
+    <string name="yssdk_local_wednesday">Woensdag</string>
+    <string name="yssdk_mb">MB</string>
+    <string name="yssdk_menu_copy">Link kopiëren</string>
+    <string name="yssdk_menu_open">Openen in browser</string>
+    <string name="yssdk_menu_send">Delen</string>
+    <string name="yssdk_menu_send_image">Delen</string>
+    <string name="yssdk_network_error">Je hebt geen internetverbinding</string>
+    <string name="yssdk_no">Nee</string>
+    <string name="yssdk_no_image_results_found">Geen afbeeldingen gevonden voor \n\"%s\"</string>
+    <string name="yssdk_no_internet">Je bent niet verbonden met internet, controleer de verbinding en probeer het opnieuw.</string>
+    <string name="yssdk_no_local_results_found">Er zijn geen plaatselijke gegevens gevonden voor \n\"%s\"</string>
+    <string name="yssdk_no_video_results_found">Geen video\'s gevonden voor \n\"%s\"</string>
+    <string name="yssdk_open">Openen</string>
+    <string name="yssdk_open_in_browser">Openen in browser</string>
+    <string name="yssdk_processing">Verwerken...</string>
+    <string name="yssdk_request_error">Kan aanvraag nu niet verwerken</string>
+    <string name="yssdk_retry_button">Opnieuw</string>
+    <string name="yssdk_safe_search">Veilig zoeken</string>
+    <string name="yssdk_safe_search_off_accept">Ik ga akkoord</string>
+    <string name="yssdk_safe_search_off_deny">Ik ga niet akkoord</string>
+    <string name="yssdk_safe_search_off_terms">Dit gedeelte bevat specifieke inhoud voor volwassenen en is mogelijk ongeschikt voor jongere gebruikers. U moet ouder zijn dan 18 jaar om inhoud voor volwassenen te bekijken.\n\nDoor de filter voor inhoud voor volwassenen te verwijderen, kunt u in aanraking komen met expliciete inhoud voor volwassenen. Als u jonger bent dan 18 jaar of niet verder wenst te gaan, klik dan hieronder om terug te keren naar de vorige pagina. Door hieronder op de knop \'Ik ga akkoord\' te klikken, verklaart u dat u tenminste 18 jaar bent en de gebruiksvoorwaarden begrijpt.\</string>
+    <string name="yssdk_safe_search_off_title">U heeft een gedeelte van Yahoo Zoeken bereikt dat leeftijdsgebonden is.</string>
+    <string name="yssdk_safesearch_moderate">Gematigd</string>
+    <string name="yssdk_safesearch_off">Uit</string>
+    <string name="yssdk_safesearch_strict">Strikt</string>
+    <string name="yssdk_search">Zoeken</string>
+    <string name="yssdk_search_copyright">Er can copyright van toepassing zijn</string>
+    <string name="yssdk_search_enhancement_no_trans">Verbeterd door</string>
+    <string name="yssdk_search_for">Zoeken naar \"%1$s\"</string>
+    <string name="yssdk_search_history">Zoekgeschiedenis</string>
+    <string name="yssdk_search_history_disabled">Uitgeschakeld</string>
+    <string name="yssdk_search_history_enabled">Ingeschakeld</string>
+    <string name="yssdk_search_or_speak">Zoeken of spreken</string>
+    <string name="yssdk_search_preferences_title">Zoekvoorkeuren</string>
+    <string name="yssdk_search_status_error">Zoekservice is uitgeschakeld</string>
+    <string name="yssdk_setting_search_title">Zoekinstellingen</string>
+    <string name="yssdk_settings_about">Over</string>
+    <string name="yssdk_share">Delen</string>
+    <string name="yssdk_share_via">Delen via</string>
+    <string name="yssdk_suggestions">Suggesties:\nZorg ervoor dat de woorden correct zijn gespeld.\nProbeer meer algemene woorden.\nProbeer andere woorden die hetzelfde betekenen.</string>
+    <string name="yssdk_video_search">Video\'s</string>
+    <string name="yssdk_voice_error">Dat is niet helemaal duidelijk. Probeer het opnieuw.</string>
+    <string name="yssdk_voice_listening">Wij luisteren...</string>
+    <string name="yssdk_voice_processing">Verwerken...</string>
+    <string name="yssdk_web_search">Web</string>
+    <string name="yssdk_webview_loading">Laden...</string>
+    <string name="yssdk_yes">Ja</string>
+</resources>

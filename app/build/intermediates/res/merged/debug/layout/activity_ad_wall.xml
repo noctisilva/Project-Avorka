@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.taehong.projectavorka.AdWall">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your friends' past Ads views"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Adam Smith"
+        android:id="@+id/textView7"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:background="#191919"
+        android:textColor="#f5f5f5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sky Diving"
+        android:id="@+id/textView8"
+        android:padding="20dp"
+        android:textSize="33dp"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7"
+        android:layout_alignTop="@+id/textView7" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView5"
+        android:rating="4"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar2"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_marginTop="93dp"
+        android:rating="3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Jane Walker"
+        android:id="@+id/textView9"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:background="#191919"
+        android:textColor="#f5f5f5"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Apple Picking"
+        android:id="@+id/applePicking"
+        android:padding="20dp"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ratingBar"
+        android:layout_toStartOf="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mr. Yahoo"
+        android:id="@+id/textView10"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:background="#191919"
+        android:textColor="#f5f5f5"
+        android:layout_below="@+id/ratingBar2"
+        android:layout_alignStart="@+id/applePicking"
+        android:layout_toStartOf="@+id/textView8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hackathon"
+        android:id="@+id/textView11"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar3"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:rating="5"/>
+</RelativeLayout>
+<!-- From: file:/C:/Users/TaeHong/AndroidStudioProjects/ProjectAvorka/app/src/main/res/layout/activity_ad_wall.xml -->

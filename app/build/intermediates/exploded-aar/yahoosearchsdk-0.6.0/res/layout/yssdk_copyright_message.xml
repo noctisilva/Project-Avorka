@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/padding_cell_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yssdk_copyright_action_bar_height_wo_progressbar" />
+    
+    <TextView 
+	     android:id="@+id/copy_right_message"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:background="@color/yssdk_translucent_background"
+	     android:textColor="@android:color/white"
+	     android:gravity="center"
+	     android:text="@string/yssdk_images_copyright_message">
+ </TextView>
+
+</LinearLayout>

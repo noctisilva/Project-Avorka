@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_result_video_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/yssdk_list_items_stateful">
+
+    <include
+            android:id="@+id/spinner_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            layout="@layout/yssdk_progress_spinner_view"
+            android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/video_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:animationCache="true"
+        android:background="@drawable/yssdk_list_items_stateful"
+        android:clickable="true"
+        android:divider="@color/black"
+        android:dividerHeight="0dip"
+        android:drawSelectorOnTop="false"
+        android:fadingEdgeLength="10dip"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:scrollingCache="true"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/yssdk_results_video_padding_top">
+    </ListView>
+
+</FrameLayout>

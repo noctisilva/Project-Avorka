@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="170dp"
+    android:clickable="true"
+    android:animateLayoutChanges="true" >
+
+    <ImageView
+        android:id="@+id/image_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/yssdk_list_items_stateful"
+        android:duplicateParentState="true"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/image_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/yssdk_list_items_stateful"
+        android:duplicateParentState="true"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/yssdk_gradient_fade_dark_to_black_downward"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:ellipsize="end"
+            android:padding="1dip"
+            android:singleLine="true"
+            android:text="Title of the listing"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:ellipsize="end"
+            android:paddingBottom="5dip"
+            android:paddingTop="2dip"
+            android:singleLine="true"
+            android:text="Info of the listing"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</FrameLayout><!-- From: file:/C:/Users/TaeHong/AndroidStudioProjects/ProjectAvorka/app/build/intermediates/exploded-aar/yahoosearchsdk-0.6.0/res/layout/yssdk_video_list_item.xml -->

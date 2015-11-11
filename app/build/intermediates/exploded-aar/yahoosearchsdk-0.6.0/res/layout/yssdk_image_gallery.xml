@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/image_gallery_container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:animateLayoutChanges="true"
+             android:background="@color/black">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/header_view"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/yssdk_app_action_bar_height"
+        android:background="@drawable/yssdk_gradient_top"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/close"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/yssdk_actionbar_item_stateful"
+            android:contentDescription="@string/yssdk_close"
+            android:text="@string/yssdk_back_icon"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textColor="#FFFFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/view_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:background="@null"
+                android:text="Title of the listing"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/view_url"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:background="@null"
+                android:text="URL of the photo listing"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/share_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/yssdk_actionbar_item_stateful"
+            android:gravity="center"
+            android:text="@string/yssdk_share_icon"
+            android:textColor="@color/white"
+            android:textSize="24dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/image_info_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/yssdk_gradient"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="6dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:ellipsize="end"
+            android:text="Description of the listing"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/image_dimensions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Dimensions of the image"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:singleLine="true"
+            android:text="@string/yssdk_search_copyright"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yssdk_default_tab_bar_height"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/image_share_button"
+            android:background="@color/share_blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/yssdk_padding_size_1"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:clickable="true"
+            android:text="@string/yssdk_menu_send_image" />
+
+        <TextView
+            android:id="@+id/image_send_icon"
+            android:background="@color/share_blue"
+            android:layout_marginRight="@dimen/yssdk_share_send_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:text="@string/yssdk_share_send_icon"/>
+    </FrameLayout>
+
+</FrameLayout>

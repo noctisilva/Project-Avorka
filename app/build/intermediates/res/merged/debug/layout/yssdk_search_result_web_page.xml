@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WEB VIEW -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srp_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/yssdk_web_gelato_background_color">
+
+    <include
+        android:id="@+id/spinner_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dip"
+        android:layout_marginRight="0dip"
+        layout="@layout/yssdk_progress_spinner_view"
+        android:visibility="gone" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/yssdk_result_error_message"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/full_transparent" >
+
+        <com.yahoo.mobile.client.share.search.ui.SearchResultWebView
+            android:id="@+id/web_search_results"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+    </LinearLayout>
+
+
+</FrameLayout><!-- From: file:/C:/Users/TaeHong/AndroidStudioProjects/ProjectAvorka/app/build/intermediates/exploded-aar/yahoosearchsdk-0.6.0/res/layout/yssdk_search_result_web_page.xml -->
